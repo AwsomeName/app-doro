@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+    
+    <!-- Background circle -->
+    <path
+        android:fillColor="#FFB74D"
+        android:pathData="M24,0 C37.25,0 48,10.75 48,24 C48,37.25 37.25,48 24,48 C10.75,48 0,37.25 0,24 C0,10.75 10.75,0 24,0 Z" />
+    
+    <!-- Face -->
+    <path
+        android:fillColor="#FFF3E0"
+        android:pathData="M24,6 C33.94,6 42,14.06 42,24 C42,33.94 33.94,42 24,42 C14.06,42 6,33.94 6,24 C6,14.06 14.06,6 24,6 Z" />
+    
+    <!-- Eyes -->
+    <path
+        android:fillColor="#333333"
+        android:pathData="M18,21.5 C19.38,21.5 20.5,20.38 20.5,19 C20.5,17.62 19.38,16.5 18,16.5 C16.62,16.5 15.5,17.62 15.5,19 C15.5,20.38 16.62,21.5 18,21.5 Z" />
+    <path
+        android:fillColor="#333333"
+        android:pathData="M30,21.5 C31.38,21.5 32.5,20.38 32.5,19 C32.5,17.62 31.38,16.5 30,16.5 C28.62,16.5 27.5,17.62 27.5,19 C27.5,20.38 28.62,21.5 30,21.5 Z" />
+    
+    <!-- Mouth -->
+    <path
+        android:fillColor="@android:color/transparent"
+        android:strokeColor="#333333"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:pathData="M17,29 Q24,34 31,29" />
+</vector>
